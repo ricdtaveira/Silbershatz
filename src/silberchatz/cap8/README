@@ -1,0 +1,15 @@
+These contain the source code for Chapter 8.
+
+- DeadlockExample.java is the program shown in Figure 8.4. To run this program, enter
+
+	javac DeadlockExample.java
+	java DeadlockExample
+
+- ClockApplet.java is the program shown in Figure 8.6. To run this program, enter
+
+	javac ClockApplet.java
+	appletviewer ClockApplet.html
+
+You may also open the file ClockApplet.html from a browser window. 
+Once the applet is running, you should see the messages "suspending threaad" and
+"resuming thread" on the Java console when you minimize and restore the applet.

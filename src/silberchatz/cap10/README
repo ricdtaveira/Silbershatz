@@ -1,0 +1,12 @@
+This directory contains the source code for Chapter 10.
+
+This contains the following files:
+
+- MemoryMapReadOnly.java - This is the memory-mapped example shown in Figure 10.21
+
+- vfork.c - An example program illustrating vfork() - the virtual-memory fork.
+
+- read-vs-mmap.pdf - A paper from Sun Microsystems illustrating the performance benefits
+of memory-mapping a file.
+This paper uses an example of scaling an image and compares the performance of
+of scaling the image using memory-mapping and traditional read-writeI/O.

@@ -1,0 +1,19 @@
+This directory contains the source code
+for Chapter 6. This includes
+
+thrd-book.c - the Pthread program shown in Figure 6.9  -
+
+thrd.c - a more interesting (but complicated) version of this program.
+
+To compile and run these programs, enter
+
+	gcc [thrd-book.c thrd.c] -lpthread
+	./a.out
+
+You should see a variety of program runs depending upon the type of POSIX system these are run on.
+These programs were tested using gcc 3.1 on Mac OS X, Linux 2.4, and Solaris 2.8.
+
+To run the programs illustrating Java threa priorities, compile both Java source files and enter
+
+	java Tester
+

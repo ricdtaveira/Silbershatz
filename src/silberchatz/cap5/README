@@ -1,0 +1,19 @@
+This directory contains the source files for chapter 5. This includes 
+
+thrd.c
+
+which is the Pthread program shown in Figure  5.7. to run this program, enter
+
+gcc thrd.c -lpthread
+./a.out <int>
+
+i.e.
+
+./a.out 5
+
+The Java programs correspond to programs shown in this Chapter.
+
+The ipc directory contains the complete multithreaded solution to the BoundedBuffer problem using message
+passing. To run this example, first compile all source files and then enter
+
+	java Factory 

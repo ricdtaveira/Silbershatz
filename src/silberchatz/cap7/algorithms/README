@@ -1,0 +1,16 @@
+This directory contains the files for the different software solutions
+to the critical section problem.
+
+Instructions:
+
+1) Compile all programs.
+
+2) Enter
+
+	java AlgorithmFactory [1 | 2 | 3]
+	
+i.e.
+	
+	java AlgorithmFactory 2
+	
+will test Algorithm_2
